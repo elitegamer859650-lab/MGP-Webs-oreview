@@ -207,7 +207,7 @@
 
                 // Create project card HTML
                 projectsHTML += `
-                    <div classV="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
                         <div class="p-6">
                             <div class="bg-gradient-to-r from-blue-400 to-indigo-500 rounded-xl w-full h-48 mb-6 flex items-center justify-center">
                                 <div class="text-white text-xl font-bold">Project Preview</div>
