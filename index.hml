@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGP LABS - Innovating Tomorrow's Technology</title>
+    <!-- 
+      This script includes Tailwind CSS, which provides all the styling.
+      This is required for the layout and design to work.
+    -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Using Inter font as a default, similar to many modern UI kits */
@@ -14,9 +18,11 @@
 </head>
 <body class="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
 
+    <!-- Header -->
     <header class="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
         <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
             <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <!-- Placeholder for logo -->
                 <div class="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16 flex items-center justify-center text-gray-500">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m5.231 13.5h1.5a3.375 3.375 0 0 0 3.375-3.375V10.5a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m-1.5 16.5h1.5a3.375 3.375 0 0 0 3.375-3.375V10.5a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5A3.375 3.375 0 0 0 6.75 4.5H4.5A3.375 3.375 0 0 0 1.125 7.875v1.5a1.125 1.125 0 0 1-1.125 1.125v1.5a3.375 3.375 0 0 0 3.375 3.375h1.5a1.125 1.125 0 0 1 1.125 1.125v1.5a3.375 3.375 0 0 0 3.375 3.375h1.5Z" />
@@ -39,6 +45,7 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div class="container mx-auto px-4 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">Transforming Ideas Into Reality</h1>
@@ -47,11 +54,13 @@
             </p>
             <button type="button" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-lg font-semibold ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-white text-indigo-700 hover:bg-gray-100 h-auto py-6 px-8">
                 Explore Our Projects
+                <!-- ArrowRight Icon -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </button>
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
@@ -61,8 +70,10 @@
                 </p>
             </div>
 
+            <!-- Project Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
+                <!-- Project Card 1 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -84,6 +95,7 @@
                     </div>
                 </div>
 
+                <!-- Project Card 2 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -105,6 +117,7 @@
                     </div>
                 </div>
 
+                <!-- Project Card 3 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -126,6 +139,7 @@
                     </div>
                 </div>
 
+                <!-- Project Card 4 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -147,6 +161,7 @@
                     </div>
                 </div>
 
+                <!-- Project Card 5 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -161,13 +176,14 @@
                         <p class="text-gray-700">Educational platform for quantum algorithm development and testing.</p>
                     </div>
                     <div class="p-6 pt-0">
-                        <button type="button" class="w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-gray-20E0 bg-white hover:bg-gray-100 hover:text-gray-900 h-10 px-4 py-2">
+                        <button type="button" class="w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white hover:bg-gray-100 hover:text-gray-900 h-10 px-4 py-2">
                             View Project
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </button>
                     </div>
                 </div>
 
+                <!-- Project Card 6 -->
                 <div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div class="p-6 pb-4">
                         <div class="flex justify-between items-start">
@@ -193,6 +209,7 @@
         </div>
     </section>
 
+    <!-- CTA Section -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to Start Your Project?</h2>
@@ -205,6 +222,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="border-t border-gray-200 bg-white py-8">
         <div class="container mx-auto px-4 text-center">
             <p class="text-gray-600">powered by <span class="font-semibold text-indigo-600">MGP LABS</span></p>
@@ -212,8 +230,11 @@
         </div>
     </footer>
 
+    <!-- 
+      This script finds the HTML element with the id "current-year"
+      and sets its text to be the current year.
+    -->
     <script>
-        // Set the current year in the footer
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 
